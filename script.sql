@@ -59,8 +59,6 @@ INSERT INTO `livros` (`titulo`, `capa`) VALUES
 
 CREATE TABLE `livrosFavoritos` (
   `idLivro` int(11) NOT NULL,
-  `titulo` varchar(200) NOT NULL,
-  `capa` varchar(500) NOT NULL,
   `idUsuario` int(11) NOT NULL,
   `idFavorito` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
